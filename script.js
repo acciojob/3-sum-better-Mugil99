@@ -6,7 +6,7 @@ function threeSum(arr, target) {
 		let left=i+1;
 		let right=arr.length-1;
 		while(left<right){
-			let sum=nums[i]+nums[left]+nums[right];
+			let sum=arr[i]+arr[left]+arr[right];
 			if(Math.abs(target-sum)<Math.abs(target-closestSum)){
 				closestSum=sum;
 			}
